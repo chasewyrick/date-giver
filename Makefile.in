@@ -13,7 +13,7 @@ INSTALL_PROGRAM=$(INSTALL) -Dpm 0755
 all: $(MAIN)
 
 $(MAIN): $(SRC)
-	$(CC) $(SRC) -o $(MAIN)
+	$(CC) $(SRC) -lncurses -o $(MAIN)
 
 clean:
 	$(RM) *~ $(MAIN) Makefile config.log config.status config.h

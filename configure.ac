@@ -13,7 +13,7 @@ AC_PROG_INSTALL
 # Checks for libraries.
 
 # Checks for header files.
-AC_CHECK_HEADERS([stdlib.h])
+AC_CHECK_HEADERS([stdlib.h ncurses.h])
 
 # Checks for typedefs, structures, and compiler characteristics.
 
