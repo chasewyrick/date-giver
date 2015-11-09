@@ -12,7 +12,17 @@
 
 int main(int argc, char const *argv[])
 {
-	printf("oh hai\n");
+	/* Initiate ncurses */
+	initscr();
+
+	printw("oh hai\n");
+	refresh();
+
+	/* Get user input */
+	getch();
+
+	/* Exit ncurses */
+	endwin();
 
 	return 0;
 }
