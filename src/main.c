@@ -1,9 +1,9 @@
 /*
  * birthday-date - main.c
  *
- * Philippe Loctaux
- * phil@pihlippeloctaux.com
+ * Copyright (c) Philippe Loctaux <phil@pihlippeloctaux.com>
  * License - GPL v2
+ *
  */
 
 #include <stdio.h>
