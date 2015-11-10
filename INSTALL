@@ -1,0 +1,24 @@
+Installation Instructions
+*************************
+
+
+Requirements
+============
+
+crand requires:
+	* the ncurses library
+	* the gcc compiler
+
+
+Installation
+============
+
+Simple install procedure:
+
+	$ tar -xzvf birthday-date-*.tar.gz	# unpack sources
+	$ cd birthday-date-*.tar.gz		# change directory to crand sources
+	$ ./configure				# run the "configure" script
+	$ make					# build crand
+	[ become root if necessary ]
+	$ make install				# install crand
+
