@@ -10,19 +10,12 @@
 #include <stdlib.h>
 #include <ncurses.h>
 
+#include "input.h"
+
 int main(int argc, char const *argv[])
 {
-	/* Initiate ncurses */
-	initscr();
-
-	printw("oh hai\n");
-	refresh();
-
-	/* Get user input */
-	getch();
-
-	/* Exit ncurses */
-	endwin();
+	/* run ask user for input */
+	input_user();
 
 	return 0;
 }
