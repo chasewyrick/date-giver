@@ -6,7 +6,7 @@
 
 ##What is birthday-date?
 
-   Birthday-date is a simple tool to convert temperatures.
+   Birthday-date gives the date when you were born.
 
 
 ##Under which license birthday-date is released?
