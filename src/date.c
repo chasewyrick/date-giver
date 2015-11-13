@@ -18,36 +18,25 @@ char day_suffix_2[] = "nd";
 char day_suffix_3[] = "rd";
 char day_suffix[] = "th";
 
-int process ()
-{
-	printf("When were you born?\n");
-	process_year();
-	process_month();
-	process_day();
-
-	return 0;
-}
-
 int process_year()
 {
+	printf("When were you born?\n");
 	printf("Enter your year, between 1900 and 2099, please enter it with the YYYY format.\n");
 	scanf("%d", &year);
 
-	if (year > 1900 && year < 2099) {
-		if (year%400 == 0) {
+	if (year > 1900 && year < 2099)
+		if (year%400 == 0)
 			printf("You were born in %d, which is a leap year.\n", year);
-		} else if (year%100 == 0) {
+		else if (year%100 == 0)
 			printf("You were born in %d, which is not a leap year.\n", year);
-		} else if (year%4 == 0) {
+		else if (year%4 == 0)
 			printf("You were born in %d, which is a leap year.\n", year);
-		} else {
+		else
 			printf("You were born in %d, which is not a leap year.\n", year);
-		}
-	} else {
-		fprintf(stderr, "You've entered an incorrect year.\n");
-		fprintf(stderr, "Please run the program again and try with a valid year.\n");
-		return -1;
-	}
+	else
+		printf("You've entered an incorrect year.\n");
+		printf("Please run the program again and try with a valid year.\n");
+		return 1;
 
 	return 0;
 }

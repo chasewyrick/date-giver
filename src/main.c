@@ -14,7 +14,9 @@
 
 int main(int argc, char const *argv[])
 {
-	process();
+	process_year();
+	process_month();
+	process_day();
 
 	return 0;
 }
