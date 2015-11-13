@@ -31,8 +31,15 @@ int process_year()
 {
 	printf("Enter your year, between 1900 and 2099, please enter it with the YYYY format.\n");
 	scanf("%d", &year);
-	printf("You were born in %d.\n", year);
-	/* Check if year is a leap year */
+
+	if (year%400 == 0)
+		printf("You were born in %d, which is a leap year.\n", year);
+	else if (year%100 == 0)
+		printf("You were born in %d, which is not a leap year.\n", year);
+	else if (year%4 == 0)
+		printf("You were born in %d, which is a leap year.\n", year);
+	else
+		printf("You were born in %d, which is not a leap year.\n", year);
 
 	return 0;
 }
