@@ -12,6 +12,7 @@
 int year = 0;
 int month = 0;
 int day = 0;
+
 char day_suffix_1[] = "st";
 char day_suffix_2[] = "nd";
 char day_suffix_3[] = "rd";
@@ -31,6 +32,13 @@ int process_year()
 {
 	printf("Enter your year, between 1900 and 2099, please enter it with the YYYY format.\n");
 	scanf("%d", &year);
+
+	if (!year < 1900 && !year > 2099)
+		fprintf(stderr, "You've entered an incorrect year.\n");
+		fprintf(stderr, "Please run the program again and try with a valid year.\n");
+		return -1;
+
+
 
 	if (year%400 == 0)
 		printf("You were born in %d, which is a leap year.\n", year);
