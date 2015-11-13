@@ -10,12 +10,11 @@
 #include <stdlib.h>
 #include <ncurses.h>
 
-#include "headers/date.c"
+#include "headers/date.h"
 
 int main(int argc, char const *argv[])
 {
-	/* run ask user for input */
-	input_user();
+	process();
 
 	return 0;
 }
