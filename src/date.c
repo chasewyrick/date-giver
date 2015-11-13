@@ -12,9 +12,10 @@
 int year = 0;
 int month = 0;
 int day = 0;
-char day_suffix_1[] = st;
-char day_suffix_2[] = nd;
-char day_suffix_3[] = rd;
+char day_suffix_1[] = "st";
+char day_suffix_2[] = "nd";
+char day_suffix_3[] = "rd";
+char day_suffix[] = "th";
 
 int process ()
 {
@@ -40,7 +41,7 @@ int process_month()
 {
 	printf("Now, please enter your month of birth, with the MM format.\n");
 	scanf("%d", &month);
-	printf("You were born in %d.", month);
+	printf("You were born in %d.\n", month);
 
 	return 0;
 }
@@ -50,11 +51,14 @@ int process_day()
 	printf("Now, please enter your birth day, with the DD format.\n");
 	scanf("%d", &day);
 
-	/* If last digit is 1, printf day_suffix_1 */
-	/* If last digit is 2, printf day_suffix_2 */
-	/* If last digit is 3, printf day_suffix_3 */
-
-	printf("You were born the %d%s.\n", day, day_suffix);
+	if (day % 10 == 1)
+		printf("You were born the %d%s.\n", day, day_suffix_1);
+	else if (day % 10 == 2)
+		printf("You were born the %d%s.\n", day, day_suffix_2);
+	else if (day % 10 == 3)
+		printf("You were born the %d%s.\n", day, day_suffix_3);
+	else
+		printf("You were born the %d%s.\n", day, day_suffix);
 
 	return 0;
 }
