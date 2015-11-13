@@ -16,17 +16,17 @@ char day_suffix_1[] = st;
 char day_suffix_2[] = nd;
 char day_suffix_3[] = rd;
 
-int input ()
+int process ()
 {
 	printf("When were you born?\n");
-	input_year();
-	input_month();
-	input_day();
+	process_year();
+	process_month();
+	process_day();
 
 	return 0;
 }
 
-int input_year()
+int process_year()
 {
 	printf("Enter your year, between 1900 and 2099, please enter it with the YYYY format.\n");
 	scanf("%d", &year);
@@ -36,7 +36,7 @@ int input_year()
 	return 0;
 }
 
-int input_month()
+int process_month()
 {
 	printf("Now, please enter your month of birth, with the MM format.\n");
 	scanf("%d", &month);
@@ -45,10 +45,15 @@ int input_month()
 	return 0;
 }
 
-int input_day()
+int process_day()
 {
 	printf("Now, please enter your birth day, with the DD format.\n");
 	scanf("%d", &day);
+
+	/* If last digit is 1, printf day_suffix_1 */
+	/* If last digit is 2, printf day_suffix_2 */
+	/* If last digit is 3, printf day_suffix_3 */
+
 	printf("You were born the %d%s.\n", day, day_suffix);
 
 	return 0;
