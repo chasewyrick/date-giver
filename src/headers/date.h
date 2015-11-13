@@ -1,5 +1,5 @@
 /*
- * birthday-date - input.h
+ * birthday-date - date.h
  *
  * Copyright (c) Philippe Loctaux <phil@pihlippeloctaux.com>
  * License - GPL v2

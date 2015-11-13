@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <ncurses.h>
 
-#include "headers/input.h"
+#include "headers/date.c"
 
 int main(int argc, char const *argv[])
 {
