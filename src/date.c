@@ -51,6 +51,8 @@ int process_day()
 	printf("Now, please enter your birth day, with the DD format.\n");
 	scanf("%d", &day);
 
+	/* Remove the first digit if it is a zero */
+
 	if (day % 10 == 1)
 		printf("You were born the %d%s.\n", day, day_suffix_1);
 	else if (day % 10 == 2)
