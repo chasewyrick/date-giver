@@ -33,6 +33,8 @@ int process_year()
 	printf("Enter your year, between 1900 and 2099, please enter it with the YYYY format.\n");
 	scanf("%d", &year);
 
+	/* FIX BUG */
+
 	if (!year < 1900 && !year > 2099) {
 		fprintf(stderr, "You've entered an incorrect year.\n");
 		fprintf(stderr, "Please run the program again and try with a valid year.\n");
