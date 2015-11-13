@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <ncurses.h>
 
-#include "input.h"
+#include "headers/input.h"
 
 int main(int argc, char const *argv[])
 {
