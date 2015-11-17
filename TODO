@@ -1,3 +1,7 @@
+Split the whole thing into a bunch of files
+Find a way the code to be less than 80 chars
+See how to do the Makefile correctly
+
 ask user to input YYYY/MM/DD
 get the code for the year
 if year < 2000, remove 1 to the result
