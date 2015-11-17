@@ -34,9 +34,8 @@ int process_year()
 		else
 			printf("You were born in %d, which is not a leap year.\n", year);
 	else
-		printf("You've entered an incorrect year.\n");
-		printf("Please run the program again and try with a valid year.\n");
-		return 1;
+		fprintf(stderr, "Error.\nPlease run the program again and try with a valid year.\n");
+		exit(-1);
 
 	return 0;
 }
