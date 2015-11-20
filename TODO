@@ -1,4 +1,3 @@
-make new file for the if for leap year, call function if yes or no
 Split the whole thing into a bunch of files
 Find a way the code to be less than 80 chars
 See how to do the Makefile correctly
