@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "headers/leap_year.c"
+#include "headers/leap_year.h"
 
 int year = 0;
 int month = 0;
