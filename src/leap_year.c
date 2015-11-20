@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "headers/leap_year.h"
+#include "headers/variables.h"
 
 int leap_year_yes()
 {

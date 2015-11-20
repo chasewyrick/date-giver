@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <ncurses.h>
 
+#include "headers/variables.h"
 #include "headers/date.h"
 #include "headers/leap_year.h"
 

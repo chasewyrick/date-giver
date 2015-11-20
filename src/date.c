@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "headers/variables.h"
 #include "headers/leap_year.h"
 
 int year = 0;
