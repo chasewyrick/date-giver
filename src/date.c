@@ -9,6 +9,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "headers/leap_year.c"
+
 int year = 0;
 int month = 0;
 int day = 0;
@@ -26,13 +28,13 @@ int process_year()
 
 	if (year > 1900 && year < 2099)
 		if (year%400 == 0)
-			printf("You were born in %d, which is a leap year.\n", year);
+			leap_year_yes();
 		else if (year%100 == 0)
-			printf("You were born in %d, which is not a leap year.\n", year);
+			leap_year_no();
 		else if (year%4 == 0)
-			printf("You were born in %d, which is a leap year.\n", year);
+			leap_year_yes();
 		else
-			printf("You were born in %d, which is not a leap year.\n", year);
+			leap_year_no();
 	else
 		fprintf(stderr, "Error.\nPlease run the program again and try with a valid year.\n");
 		exit(-1);

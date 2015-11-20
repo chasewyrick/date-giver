@@ -11,6 +11,7 @@
 #include <ncurses.h>
 
 #include "headers/date.h"
+#include "headers/leap_year.h"
 
 int main(int argc, char const *argv[])
 {
