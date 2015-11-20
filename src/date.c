@@ -11,6 +11,7 @@
 
 #include "headers/variables.h"
 #include "headers/leap_year.h"
+#include "headers/date_suffix.h"
 
 int year = 0;
 int month = 0;
@@ -60,13 +61,13 @@ int process_day()
 	/* Remove the first digit if it is a zero */
 
 	if (day % 10 == 1)
-		printf("You were born the %d%s.\n", day, day_suffix_1);
+		day_1();
 	else if (day % 10 == 2)
-		printf("You were born the %d%s.\n", day, day_suffix_2);
+		day_2();
 	else if (day % 10 == 3)
-		printf("You were born the %d%s.\n", day, day_suffix_3);
+		day_3();
 	else
-		printf("You were born the %d%s.\n", day, day_suffix);
+		day_other();
 
 	return 0;
 }
