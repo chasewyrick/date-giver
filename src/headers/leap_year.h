@@ -6,5 +6,7 @@
  *
  */
 
+extern int year;
+
 int leap_year_yes();
 int leap_year_no();

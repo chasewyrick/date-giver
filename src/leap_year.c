@@ -9,6 +9,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "headers/leap_year.h"
+
 int leap_year_yes()
 {
 	printf("You were born in %d, which is a leap year.\n", year);
