@@ -39,7 +39,7 @@ int process_year()
 			leap_year_no();
 	else
 		fprintf(stderr, "Error.\nPlease run the program again and try with a valid year.\n");
-		exit(-1);
+		return 1;
 
 	return 0;
 }
