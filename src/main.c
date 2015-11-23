@@ -13,6 +13,7 @@
 #include "headers/variables.h"
 #include "headers/date.h"
 #include "headers/leap_year.h"
+#include "headers/date_suffix.h"
 
 int main(int argc, char const *argv[])
 {
