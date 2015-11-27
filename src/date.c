@@ -28,7 +28,10 @@ int process_year()
 	printf("Enter your year, between 1900 and 2099, please enter it with the YYYY format.\n");
 	scanf("%d", &year);
 
-	if (year > 1900 && year < 2099)
+	if (year < 1900 && year > 2099) {
+		fprintf(stderr, "Error.\nPlease run the program again and try with a valid year.\n");
+		return 1;
+	} else {
 		if (year%400 == 0)
 			leap_year_yes();
 		else if (year%100 == 0)
@@ -37,9 +40,7 @@ int process_year()
 			leap_year_yes();
 		else
 			leap_year_no();
-	else
-		fprintf(stderr, "Error.\nPlease run the program again and try with a valid year.\n");
-		return 1;
+	}
 
 	return 0;
 }
