@@ -7,9 +7,9 @@ translate da app
 
 
 ask user to input YYYY/MM/DD
-get the code for the year
-if year < 2000, remove 1 to the result
-check if year "bixestille", and if date is before 1st march, add 1 to result
+get the code for the month
+if year more than 2000, remove 1 to the result
+check if year is leap, and if date is before 1st march, add 1 to result
 modulo of division of the result by 7
 convert dat rest in day with the following list:
 0: sunday
