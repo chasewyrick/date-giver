@@ -12,6 +12,7 @@
 #include "headers/variables.h"
 #include "headers/leap_year.h"
 #include "headers/date_suffix.h"
+#include "headers/input_date.h"
 
 int year = 0;
 int month = 0;
@@ -24,9 +25,7 @@ char day_suffix[] = "th";
 
 int process_year()
 {
-	printf("When were you born?\n");
-	printf("Enter your year, between 1900 and 2099, please enter it with the YYYY format.\n");
-	scanf("%d", &year);
+	input_year();
 
 	if (year < 1900 && year > 2099) {
 		fprintf(stderr, "Error.\nPlease run the program again and try with a valid year.\n");
@@ -47,8 +46,8 @@ int process_year()
 
 int process_month()
 {
-	printf("Now, please enter your month of birth, with the MM format.\n");
-	scanf("%d", &month);
+	input_month();
+
 	printf("You were born in %d.\n", month);
 
 	return 0;
@@ -56,8 +55,7 @@ int process_month()
 
 int process_day()
 {
-	printf("Now, please enter your birth day, with the DD format.\n");
-	scanf("%d", &day);
+	input_day();
 
 	/* Remove the first digit if it is a zero */
 
