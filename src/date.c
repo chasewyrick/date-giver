@@ -9,10 +9,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "headers/variables.h"
-#include "headers/leap_year.h"
-#include "headers/date_suffix.h"
-#include "headers/input_date.h"
+#include "variables.h"
+#include "leap_year.h"
+#include "date_suffix.h"
+#include "input_date.h"
 
 int year = 0;
 int month = 0;

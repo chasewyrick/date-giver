@@ -10,10 +10,10 @@
 #include <stdlib.h>
 #include <ncurses.h>
 
-#include "headers/variables.h"
-#include "headers/date.h"
-#include "headers/leap_year.h"
-#include "headers/date_suffix.h"
+#include "variables.h"
+#include "date.h"
+#include "leap_year.h"
+#include "date_suffix.h"
 
 int main(int argc, char const *argv[])
 {

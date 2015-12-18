@@ -9,9 +9,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "headers/variables.h"
-#include "headers/leap_year.h"
-#include "headers/date_suffix.h"
+#include "variables.h"
+#include "leap_year.h"
+#include "date_suffix.h"
 
 int input_year()
 {
