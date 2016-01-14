@@ -1,5 +1,5 @@
 /*
- * birthday-date - main.c
+ * date-giver - main.c
  *
  * Copyright (c) Philippe Loctaux <phil@pihlippeloctaux.com>
  * License - GPL v2

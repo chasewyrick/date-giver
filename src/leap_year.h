@@ -1,5 +1,5 @@
 /*
- * birthday-date - leap_year.h
+ * date-giver - leap_year.h
  *
  * Copyright (c) Philippe Loctaux <phil@philippeloctaux.com>
  * License - GPL v2

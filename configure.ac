@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([birthday-date], [0.0], [phil@philippeloctaux.com])
+AC_INIT([date-giver], [0.0], [phil@philippeloctaux.com])
 AC_CONFIG_SRCDIR([src/main.c])
 AC_CONFIG_HEADERS([config.h])
 

@@ -1,5 +1,5 @@
 /*
- * birthday-date - variables.h
+ * date-giver - variables.h
  *
  * Copyright (c) Philippe Loctaux <phil@pihlippeloctaux.com>
  * License - GPL v2

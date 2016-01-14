@@ -1,5 +1,5 @@
 /*
- * birthday-date - date_suffix.h
+ * date-giver - date_suffix.h
  *
  * Copyright (c) Philippe Loctaux <phil@philippeloctaux.com>
  * License - GPL v2
