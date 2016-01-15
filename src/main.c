@@ -12,14 +12,14 @@
 
 #include "variables.h"
 #include "date.h"
-#include "leap_year.h"
-#include "date_suffix.h"
 
 int main(int argc, char const *argv[])
 {
 	process_year();
 	process_month();
 	process_day();
+
+	display_date();
 
 	return 0;
 }

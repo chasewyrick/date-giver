@@ -10,25 +10,21 @@
 #include <stdlib.h>
 
 #include "variables.h"
-#include "leap_year.h"
-#include "date_suffix.h"
 
 int input_year()
 {
-	printf("When were you born?\n");
-	printf("Enter your year, between 1900 and 2099, please enter it with the YYYY format.\n");
+	printf("Enter the year wanted, between 1900 and 2099, please enter it with the YYYY format.\t");
 	scanf("%d", &year);
 }
 
 int input_month()
 {
-	printf("Now, please enter your month of birth, with the MM format.\n");
+	printf("Enter the month wanted, with the MM format.\t");
 	scanf("%d", &month);
-	printf("You were born in %d.\n", month);
 }
 
 int input_day()
 {
-	printf("Now, please enter your birth day, with the DD format.\n");
+	printf("Enter the day wanted, with the DD format.\t");
 	scanf("%d", &day);
 }
