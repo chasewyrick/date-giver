@@ -10,3 +10,4 @@ int process_year();
 int process_month();
 int process_day();
 int display_date();
+int calculate_final();

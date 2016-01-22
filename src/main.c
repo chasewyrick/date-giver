@@ -21,5 +21,7 @@ int main(int argc, char const *argv[])
 
 	display_date();
 
+	calculate_final();
+
 	return 0;
 }
