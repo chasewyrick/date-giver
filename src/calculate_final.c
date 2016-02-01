@@ -13,11 +13,13 @@
 #include "variables.h"
 
 int isLeapYear;
+float lastDigit;
+float quarter;
 
 int last_digit_year()
 {
-        int lastDigit = year % 20;
-        printf("%d\n", lastDigit);
+        lastDigit = year % 20;
+        printf("%f\n", lastDigit);
 }
 
 int check_leap_year()
@@ -30,4 +32,17 @@ int check_leap_year()
                 /* yes */ isLeapYear = 1;
         else
                 /* no */ isLeapYear = 0;
+}
+
+int quarter_the_number()
+{
+        quarter = lastDigit / 4;
+        printf("%f\n", quarter);
+}
+
+int floor_the_number()
+{
+        floor(quarter);
+        int quarter_int = quarter;
+        printf("%d\n", quarter_int);
 }

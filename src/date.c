@@ -47,4 +47,6 @@ int display_date()
 int calculate_final()
 {
 	last_digit_year();
+	quarter_the_number();
+	floor_the_number();
 }

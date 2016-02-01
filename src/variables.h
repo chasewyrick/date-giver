@@ -11,3 +11,4 @@ extern int month;
 extern int day;
 
 extern int isLeapYear;
+extern float quarter;
