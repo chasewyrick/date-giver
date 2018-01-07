@@ -1,11 +1,19 @@
-# Created by https://www.gitignore.io/api/c,linux,osx,windows
+date-giver*
 
 ### C ###
+# Prerequisites
+*.d
+
 # Object files
 *.o
 *.ko
 *.obj
 *.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
 
 # Precompiled Headers
 *.gch
@@ -33,10 +41,42 @@
 
 # Debug files
 *.dSYM/
+*.su
+*.idb
+*.pdb
 
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### Vim ###
+# swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+### Git files ###
+!.gitignore
+!.mailmap
 
 ### Linux ###
 *~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
 
 # KDE directory preferences
 .directory
@@ -46,7 +86,7 @@
 
 
 ### OSX ###
-.DS_Store
+*.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -63,6 +103,7 @@ Icon
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -91,4 +132,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
