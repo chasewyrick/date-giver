@@ -1,9 +1,9 @@
-/*
- * date-giver - input_date.c
- *
- * Copyright (c) Philippe Loctaux <phil@pihlippeloctaux.com>
- * License - GPL v2
- *
+/**
+ * File              : input_date.c
+ * Author            : Philippe Loctaux <loctauxphilippe@gmail.com>
+ * Date              : 18.12.2015
+ * Last Modified Date: 07.01.2018
+ * Last Modified By  : Philippe Loctaux <loctauxphilippe@gmail.com>
  */
 
 #include <stdio.h>
