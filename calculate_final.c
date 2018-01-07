@@ -1,9 +1,9 @@
-/*
- * date-giver - calculate_final.c
- *
- * Copyright (c) Philippe Loctaux <phil@pihlippeloctaux.com>
- * License - GPL v2
- *
+/**
+ * File              : calculate_final.c
+ * Author            : Philippe Loctaux <loctauxphilippe@gmail.com>
+ * Date              : 22.01.2016
+ * Last Modified Date: 07.01.2018
+ * Last Modified By  : Philippe Loctaux <loctauxphilippe@gmail.com>
  */
 
 #include <stdio.h>
