@@ -1,9 +1,9 @@
-/*
- * date-giver - date.c
- *
- * Copyright (c) Philippe Loctaux <phil@pihlippeloctaux.com>
- * License - GPL v2
- *
+/**
+ * File              : date.c
+ * Author            : Philippe Loctaux <loctauxphilippe@gmail.com>
+ * Date              : 13.11.2015
+ * Last Modified Date: 07.01.2018
+ * Last Modified By  : Philippe Loctaux <loctauxphilippe@gmail.com>
  */
 
 #include <stdio.h>
