@@ -15,8 +15,7 @@
 int check_year(void)
 {
 	if (year < 1900 && year > 2099) {
-		fprintf(stderr, "invalid year.\n");
-		fprintf(stderr, "please try again with a valid year.\n");
+		fprintf(stderr, "invalid year! please try again...\n");
 		exit(EXIT_FAILURE);
 	}
 }
