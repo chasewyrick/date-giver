@@ -7,18 +7,8 @@
  */
 
 #include <stdio.h>
-#include "variables.h"
-#include "date.h"
 
-int main(int argc, char const *argv[])
+int main(void)
 {
-	process_year();
-	process_month();
-	process_day();
-
-	display_date();
-
-	calculate_final();
-
 	return 0;
 }

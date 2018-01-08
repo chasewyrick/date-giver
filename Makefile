@@ -7,8 +7,11 @@ INSTALL_PROGRAM=$(INSTALL) -Dpm 0755
 
 default: do-all
 
-do-all: main.o date.o
-	$(CC) $(CFLAGS) -o $(TARGET) main.o date.o
+do-all: main.o
+	$(CC) $(CFLAGS) -o $(TARGET) main.o
+
+main.o: main.c
+	$(CC) $(CFLAGS) -c main.c
 
 clean:
 	$(RM) $(TARGET) *.o *~
