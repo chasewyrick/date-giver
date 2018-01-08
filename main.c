@@ -8,7 +8,19 @@
 
 #include <stdio.h>
 
-int main(void)
+int year;
+
+int input(void)
 {
+	printf("please enter a year between 1900 and 2099\n");
+	scanf("%d", &year);
+	printf("year: %d\n", year);
 	return 0;
 }
+
+int main(void)
+{
+	input();
+	return 0;
+}
+
