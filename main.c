@@ -12,7 +12,6 @@
 
 int main(void)
 {
-	input();
 	return 0;
 }
 
