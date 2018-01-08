@@ -1,18 +1,26 @@
 /**
- * File              : main.c
+ * File              : check.c
  * Author            : Philippe Loctaux <loctauxphilippe@gmail.com>
- * Date              : 09.11.2015
+ * Date              : 08.01.2018
  * Last Modified Date: 08.01.2018
  * Last Modified By  : Philippe Loctaux <loctauxphilippe@gmail.com>
  */
 
 #include <stdio.h>
 #include "variables.h"
-#include "input.h"
+#include "check.h"
 
-int main(void)
+void check_year(void)
 {
-	input();
-	return 0;
+	;
 }
 
+void check_month(void)
+{
+	;
+}
+
+void check_day(void)
+{
+	;
+}

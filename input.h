@@ -1,18 +1,16 @@
 /**
- * File              : main.c
+ * File              : input.h
  * Author            : Philippe Loctaux <loctauxphilippe@gmail.com>
- * Date              : 09.11.2015
+ * Date              : 08.01.2018
  * Last Modified Date: 08.01.2018
  * Last Modified By  : Philippe Loctaux <loctauxphilippe@gmail.com>
  */
 
-#include <stdio.h>
-#include "variables.h"
-#include "input.h"
+#ifndef INPUT_H
+#define INPUT_H
 
-int main(void)
-{
-	input();
-	return 0;
-}
+void input_year();
+void input_month();
+void input_day();
 
+#endif
