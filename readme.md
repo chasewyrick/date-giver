@@ -28,3 +28,5 @@ by you.
 
 licensed under the gpl version 2 (**only version 2**) license
 (see [license.txt](license.txt))
+
+coding style used is the linux kernel coding style
