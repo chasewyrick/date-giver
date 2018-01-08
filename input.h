@@ -9,8 +9,8 @@
 #ifndef INPUT_H
 #define INPUT_H
 
-void input_year();
-void input_month();
-void input_day();
+int input_year();
+int input_month();
+int input_day();
 
 #endif

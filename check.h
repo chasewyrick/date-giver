@@ -9,8 +9,8 @@
 #ifndef CHECK_H
 #define CHECK_H
 
-void check_year();
-void check_month();
-void check_day();
+int check_year();
+int check_month();
+int check_day();
 
 #endif

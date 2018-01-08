@@ -10,20 +10,20 @@
 #include "variables.h"
 #include "input.h"
 
-void input_year(void)
+int input_year(void)
 {
-	prvoidf("enter a year between 1900 and 2099: ");
+	printf("enter a year between 1900 and 2099: ");
 	scanf("%d", &year);
 }
 
-void input_month(void)
+int input_month(void)
 {
-	prvoidf("now enter the month: ");
+	printf("now enter the month: ");
 	scanf("%d", &month);
 }
 
-void input_day(void)
+int input_day(void)
 {
-	prvoidf("finally enter the day: ");
+	printf("finally enter the day: ");
 	scanf("%d", &day);
 }

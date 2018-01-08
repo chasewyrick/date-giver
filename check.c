@@ -10,17 +10,17 @@
 #include "variables.h"
 #include "check.h"
 
-void check_year(void)
+int check_year(int)
 {
 	;
 }
 
-void check_month(void)
+int check_month(int)
 {
 	;
 }
 
-void check_day(void)
+int check_day(int)
 {
 	;
 }
