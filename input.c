@@ -10,6 +10,10 @@
 #include "variables.h"
 #include "input.h"
 
+int year;
+int month;
+int day;
+
 int input_year(void)
 {
 	printf("enter a year between 1900 and 2099: ");
