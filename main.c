@@ -9,9 +9,19 @@
 #include <stdio.h>
 #include "variables.h"
 #include "input.h"
+#include "check.h"
 
 int main(void)
 {
+	input_year();
+	check_year();
+
+	input_month();
+	check_month();
+
+	input_day();
+	check_day();
+
 	return 0;
 }
 
