@@ -14,6 +14,11 @@
 
 int check_year(void)
 {
+	if (year == NULL) {
+		fprint(stderr, "please enter a something! try again...\n");
+		exit(EXIT_FAILURE);
+	}
+
 	if (year < 1900 && year > 2099) {
 		fprintf(stderr, "invalid year! please try again...\n");
 		exit(EXIT_FAILURE);
