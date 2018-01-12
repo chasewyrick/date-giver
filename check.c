@@ -15,7 +15,7 @@
 int check_year(void)
 {
 	if (year == NULL) {
-		fprintf(stderr, "please enter a something! try again...\n");
+		fprintf(stderr, "please enter something! try again...\n");
 		exit(EXIT_FAILURE);
 	}
 
