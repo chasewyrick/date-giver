@@ -1,4 +1,4 @@
-# date-giver [![Build Status](https://travis-ci.org/ploctaux/date-giver.svg?branch=master)](https://travis-ci.org/ploctaux/date-giver)
+# date-giver [![Build Status](https://travis-ci.org/x4m3/date-giver.svg?branch=master)](https://travis-ci.org/x4m3/date-giver)
 ## what
 date-giver is a program that gives you the day of any given date
 from the year 1900 to the year 2099.
