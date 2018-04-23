@@ -5,6 +5,8 @@ INSTALL=install
 INSTALL_DIRECTORY=$(INSTALL) -dm755
 INSTALL_PROGRAM=$(INSTALL) -Dpm 0755
 
+.PHONY: default do-all main.o clean install uninstall
+
 default: do-all
 
 do-all: main.o
